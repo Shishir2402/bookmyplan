@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class visa {
     @GetMapping("/visa")
     public String getData() {
-        return "Hello Welcome to bookmyplan, Please book hotel at 10% discount" ;
+        return "Hello Welcome to bookmyplan, Please book visa at 10% discount" ;
     }
 }
