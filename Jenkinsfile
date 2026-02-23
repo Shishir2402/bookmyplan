@@ -1,6 +1,6 @@
 pipeline {
 
-    agent { label 'jslave-teamA' }
+    agent { label 'jsalve-teamA' }
 
     options {
         buildDiscarder(logRotator(numToKeepStr: '3', artifactNumToKeepStr: '3'))
