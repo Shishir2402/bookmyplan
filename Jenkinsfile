@@ -69,7 +69,7 @@ pipeline {
                 echo 'Docker Image Scanning Completed!'
             }
         }
-        stage('Push Docker Image to Docker Hub') {
+stage('Push Docker Image to Docker Hub') {
             steps {
                 script {
                     withCredentials([string(credentialsId: 'dockerhubCred', variable: 'dockerhubCred')]) {
