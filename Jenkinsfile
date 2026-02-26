@@ -103,7 +103,7 @@ stage('Push Docker Image to Docker Hub') {
                     docker rmi shishirshriwastav/bookmyplan:latest || echo "Image not found or already deleted"
                     docker rmi bookmyplan:latest || echo "Image not found or already deleted"
                     docker rmi 134653365496.dkr.ecr.ap-south-1.amazonaws.com/bookmyplan:latest || echo "Image not found or already deleted"
-                    docker rmi 65.0.251.157:8085/bookmyplan:latest
+                    docker rmi 172.31.25.199:8085/bookmyplan:latest
                     docker image prune -f
                 '''
                 echo 'Local Docker Images Cleaned Up Successfully!'
